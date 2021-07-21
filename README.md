@@ -36,10 +36,10 @@ Create a link to the target using a good ol' anchor link.
 </a>
 ```
 
-Add a target element using the anchor defined before and set `aria-expanded` to `false`.
+Add a target element using the anchor defined before and set `aria-expanded` to `false`. Hide or place the item offscreen and show it with the preferred classes prefixed with the `expanded` variant.
 
 ```html
-<nav id="navigation" aria-expanded="false" class="fixed left-0 top-0 min-w-full min-h-screen bg-white bg-opacity-90 shadow-lg transform -translate-y-full transition-transform duration-300 lg:static lg:translate-y-0 lg:bg-transparent lg-min-w-0 lg:min-h-0 lg:px-0 lg:shadow-none z-50">
+<nav id="navigation" aria-expanded="false" class="fixed left-0 top-0 min-w-full min-h-screen bg-white bg-opacity-90 shadow-lg transform -translate-y-full transition-transform duration-300 lg:static lg:translate-y-0 lg:bg-transparent lg-min-w-0 lg:min-h-0 lg:px-0 lg:shadow-none z-50 expanded:translate-0">
   <!-- The close button unset the current target -->
   <a href="#" id="navigation-close" aria-label="Close menu" class="absolute top-0 right-0 z-50 p-4 lg:hidden">
       <span class="sr-only">Close menu</span>
@@ -55,4 +55,15 @@ You will find a JavaScript file in the js folder that aids in hiding the anchor 
 
 ## Configuration
 
-This plugin requires no configuration.
+You can configure which plugins use the `expanded` variant in your `tailwind.config.js` file:
+
+```js
+// tailwind.config.js
+module.exports = {
+  variants: {
+    extends: {
+      translate: ['expanded'],
+    }
+  },
+};
+```
