@@ -1,6 +1,7 @@
 {
     "name": "@vendeka/tailwindcss-expanded",
     "description": "A TailwindCSS plugin that adds expanded states to element, useful for mobile navigation without JavaScript.",
+    "version": "1.0.0",
     "main": "index.js",
     "private": true,
     "repository": {
@@ -17,7 +18,7 @@
         "plugin"
     ],
     "author": "Vendeka",
-    "license": "Proprietary",
+    "license": "GPL-3.0",
     "dependencies": {
         "tailwindcss": "^2.0.0"
     }

@@ -5,7 +5,7 @@
 Install the plugin from GitHub:
 
 ```sh
-npm install git+https://github.com/vendeka-nl/tailwindcss-expanded.git
+npm install @vendeka/tailwindcss-expanded
 ```
 
 Then add the plugin to your `tailwind.config.js` file:
