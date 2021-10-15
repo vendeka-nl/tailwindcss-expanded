@@ -3,7 +3,6 @@
     "description": "A TailwindCSS plugin that adds expanded states to element, useful for mobile navigation without JavaScript.",
     "version": "1.0.0",
     "main": "index.js",
-    "private": true,
     "repository": {
         "type": "git",
         "url": "git+https://github.com/vendeka-nl/tailwindcss-expanded.git"
