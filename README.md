@@ -1,5 +1,7 @@
 # Expanded elements for TailwindCSS 
 
+![npm (scoped)](https://img.shields.io/npm/v/@vendeka/tailwindcss-expanded)
+
 ## Installation
 
 Install the plugin from GitHub:
