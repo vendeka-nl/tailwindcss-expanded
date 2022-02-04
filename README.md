@@ -4,7 +4,7 @@
 
 ## Installation
 
-Install the plugin from GitHub:
+Install the plugin from NPM:
 
 ```sh
 npm install @vendeka/tailwindcss-expanded
