@@ -1,5 +1,7 @@
 # Expanded elements for TailwindCSS 
 
+![npm (scoped)](https://img.shields.io/npm/v/@vendeka/tailwindcss-expanded)
+
 A plugin that provides a variant to target `:target`/`aria-expanded`.
 
 
