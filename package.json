@@ -18,7 +18,10 @@
     ],
     "author": "Vendeka",
     "license": "GPL-3.0",
+    "peerDependencies": {
+        "tailwindcss": "^2.0.0 | ^3.0.0"
+    },
     "dependencies": {
-        "tailwindcss": "^2.0.0"
+        "tailwindcss": "^3.3.1"
     }
 }
